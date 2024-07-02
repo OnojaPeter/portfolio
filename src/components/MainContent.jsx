@@ -6,7 +6,7 @@ import Button from "./Button"
 function MainContent() {
     return (
         <div className="px-8 mx-auto mb-24 max-w-screen-2xl md:px-12" id="Home">
-            <div className="flex flex-col items-center justify-center text-center py-[180px]">
+            <div className="flex flex-col items-center justify-center text-center py-[80px] md:py-[180px]">
                 <div className="flex gap-2 relative">
                     <p className="absolute -left-9 -top-4  text-xl font-semibold  text-white">I<span className="mx-1 text-indigo-500">'</span>m</p>
                     <h1 className="mb-4 text-5xl font-bold leading-tight text-gray-200 uppercase md:text-7xl font-poppins">Onoja <br className="sm:hidden block"></br> Peter</h1>
