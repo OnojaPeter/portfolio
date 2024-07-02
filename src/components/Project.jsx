@@ -36,7 +36,7 @@ function Project() {
                         <div>
                             <h1 className="mb-2 text-xl font-bold text-gray-300">{project.name}</h1>
 
-                            <div className="flex gap-2 mb-2 text-sm">
+                            <div className="flex flex-wrap gap-2 mb-2 text-sm">
                                 {project.technologies.map((tech, index) => (
                                     <p key={index} className={`px-2 py-1 font-semibold tracking-wide rounded-full ${getTechColor(tech)}`}>{tech}</p>
                                 ))}
