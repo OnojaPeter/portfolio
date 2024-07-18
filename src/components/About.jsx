@@ -7,7 +7,7 @@ function About() {
 
                 <div className="flex flex-col gap-y-10  justify-between  md:flex-row ">
                     <div className="flex justify-center md:items-start w-full mx-auto max-w-[300px] md:w-[40%]">
-                        <img className="w-[300px] h-[300px] rounded-xl" loading="lazy" src="/avatar.jpg" alt="Peter" />
+                        <img className=" h-[300px] rounded-xl object-contain" loading="lazy" src="/download.png" alt="Peter" />
                     </div>
                     
                     <div className="flex flex-col  lg:max-w-3xl gap-5  md:w-[55%]">
@@ -21,11 +21,11 @@ function About() {
                             <h2 className="mb-6 text-lg tracking-wide text-left text-gray-200 font-lato">Languages and Technologies</h2>
                             <ul className="space-y-2 text-gray-400 font-lato">
                                 <li>NodeJs</li>
+                                <li>React</li>
                                 <li>JavaScript</li>
                                 <li>Jquery</li>
                                 <li>MongoDB</li>
-                                <li>EJS</li>
-                                <li>React</li>
+                                <li>EJS</li>                               
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>TailwindCss</li>

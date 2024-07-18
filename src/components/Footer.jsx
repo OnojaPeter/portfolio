@@ -36,7 +36,7 @@ function Footer() {
                 </div>
 
                 <div className="flex flex-col items-center md:items-end justify-between gap-5">
-                    <div className="flex items-center gap-2 border px-1 h-12 rounded-full">
+                    {/* <div className="flex items-center gap-2 border px-1 h-12 rounded-full">
                         <button className={`flex justify-center items-center h-10 w-10 rounded-full transition-all duration-300 ${activeButton === 'moon' ? 'bg-indigo-900 opacity-100 text-white' : 'text-gray-300 opacity-50' }`}
                             onClick={() => handleButtonClick('moon')}>
                             <FaRegMoon className="text-2xl" />
@@ -46,8 +46,8 @@ function Footer() {
                             onClick={() => handleButtonClick('sun')} >
                             <MdSunny className="text-2xl" />
                         </button>
-                    </div>
-                    <div className="text-gray-300 text-xl">Built by <a href="https://github.com/onojapeter/portfolio" className="text-white">Onoja Peter</a></div>
+                    </div> */}
+                    <div className="text-gray-300 text-xl">Built by <a href="https://github.com/onojapeter" className="text-white">Onoja Peter</a></div>
                 </div>
 
             </div>

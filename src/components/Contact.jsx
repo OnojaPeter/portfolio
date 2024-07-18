@@ -16,7 +16,7 @@ function Contact() {
         setLoading(true);
         
         try {
-            const res = await axios.post('http://localhost:5000/send-email', { name, email, message });
+            const res = await axios.post('https://onoja-peter-back.vercel.app/send-email', { name, email, message });
             setTimeout(() => {
                 setResponse({ type: 'success', message: res.data });
                 setName('');
