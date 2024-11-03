@@ -10,7 +10,7 @@ const Experience = () => {
                     animate={{ y: -100, opacity: 0}}
                     transition={{duration: 1.5}}
                     viewport={{ once: true }}
-                    className="text-4xl text-center py-5 lg:py-20">Experience</motion.h2>
+                    className="text-4xl text-center py-5 lg:py-20">Experiences</motion.h2>
                 <div>
                     {experiences.map((experience, index) => {
                         return (

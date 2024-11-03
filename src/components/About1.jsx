@@ -13,7 +13,7 @@ const About1 = ()=> {
                     About <span className="text-neutral-500">Me</span>
             </motion.h2>
 
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap items-center">
                 <motion.div 
                     whileInView={{opacity: 1, x: 0}}
                     initial={{ opacity: 0, x: -100}}

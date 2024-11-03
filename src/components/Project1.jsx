@@ -42,7 +42,7 @@ const Project1 = () => {
                                 viewport={{ once: true }}
                                 className="w-full max-w-xl lg:w-3/4">
                                     <h6 className="mb-2 font-semibold">{project.title}</h6>
-                                    <p className="mb-4 text-neutral-400">{project.description}</p>
+                                    <p className="mb-4 text-neutral-400 text-sm">{project.description}</p>
                                     {project.technologies.map((tech, index) => {
                                         return (
                                             <span 

@@ -6,30 +6,12 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    /* background-color: #7851a9; */
+    background-color: black;
     font-family: "Poppins", sans-serif;
-    /* font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.5; */
-    /* overflow-x: hidden; */
 }
 .hero-btn:hover .hero-arrow{
   transform: rotate(-45deg);
 }
-/* h1 {
-    line-height: 1.2;
-    font-size: 2.5rem;
-    letter-spacing: 4px;
-    font-weight: 600;
-} */
-
-/* p {
-    font-size: 1rem;
-    font-weight: 500;
-    letter-spacing: 1.5px;
-    line-height: 2;
-} */
-
 /* From Uiverse.io by PapaUiiss404 */ 
 .card {
     width: fit-content;
