@@ -13,7 +13,7 @@ function Navbar() {
                     <a href="https://www.github.com/onojapeter" target="_blank">
                         <FaGithub className=" text-gray-100 cursor-pointer hover:text-purple-700" />
                     </a>
-                    <a href="https://www.linkedin.com/in/onoja-peter-243485217" target="_blank">
+                    <a href="https://www.linkedin.com/in/onoja-peter" target="_blank">
                         <FaLinkedin className=" text-gray-100 cursor-pointer hover:text-purple-700" />
                     </a>
                     <a href="https://www.x.com/onojapeter_" target="_blank">

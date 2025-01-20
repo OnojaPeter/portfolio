@@ -24,29 +24,36 @@ export const experiences = [
         year: '2024 - present',
         role: 'fullstack developer/consultant',
         company: 'logdigital',
-        description: "Developed a comprehensive website for LogDigital, a company specializing in tech, marketing and management services. The website showcases the company's offerings and facilitates user engagement through and responsive and intuitive interface.",
-        technologies: ['react', 'Nodejs', 'tailwindCss']
+        description: 'I design and build responsive user interfaces, develop secure server-side logic, and manage databases to deliver scalable, high-performance applications. I collaborate with clients and teams to assess technical needs, recommend suitable solutions, and oversee project execution',
+        technologies: ['react', 'Nodejs', 'Mongodb', 'tailwindCss']
     },
     {
-        year: '2024',
+        year: 'Jan 2024 - Nov 2024',
+        role: 'frontend developer',
+        company: 'Style IT',
+        description: 'Frontend Developer at StyleIT, transforming innovative designs into seamless, functional code.Redefined the web development process by streamlining the implementation of user-focused interfaces and ensuring optimal performance across platforms.',
+        technologies: ['react', 'Framer motion', 'tailwindCss']
+    },
+    {
+        year: 'Dec 2022 - May 2024',
         role: 'fullstack developer',
-        company: 'Diadem plc',
-        description: 'Collaborated with product designer to develop the designs pixel perfect! Developed RESTful APIs and secure user authentication and authorization.',
-        technologies: ['Nodejs', 'js', 'react']
+        company: 'Diadem plc - California',
+        description: 'Developed and maintained a bespoke e-commerce platform for Diadem plc, a company specializing inNigerian cuisine, employing React js for frontend and Node.js, Express.js, and MongoDB for backend.Integrated secure payment options, ensuring seamless transactions.',
+        technologies: ['Nodejs', 'react', 'Mongodb', 'tailwindCss']
     },
+    // {
+    //     year: 'Nov 2023 - Jan 2024',
+    //     role: 'fullstack developer',
+    //     company: 'Drip Kustom',
+    //     description: 'Developed a bespoke e-commerce platform for Drip Kustom, a company specializing in custom shoe designs, employing HTML, CSS, JavaScript for frontend and Node.js, Express.js, and MongoDB for backend. Integrated secure payment options, ensuring seamless transactions for custom shoe purchases.',
+    //     technologies: ['Nodejs', 'js', 'react']
+    // },
     {
-        year: 'Nov 2023 - Jan 2024',
-        role: 'fullstack developer',
-        company: 'Drip Kustom',
-        description: 'Developed a bespoke e-commerce platform for Drip Kustom, a company specializing in custom shoe designs, employing HTML, CSS, JavaScript for frontend and Node.js, Express.js, and MongoDB for backend. Integrated secure payment options, ensuring seamless transactions for custom shoe purchases.',
-        technologies: ['Nodejs', 'js', 'react']
-    },
-    {
-        year: 'July 2023 - Dec 2023',
+        year: 'Aug 2022 - Jul 2023',
         role: 'backend developer',
-        company: 'Oden Lounge',
-        description: "Collaborated with a team to develop Oden Lounge's restaurant website, leveraging Node.js, MongoDB, and CSS. Responsible for translating design concepts into responsive web elements, managing debugging processes, and implementing features such as page rendering and automated reservation confirmation emails.",
-        technologies: ['js', 'Nodejs', 'Mongodb']
+        company: 'Oden Unlimited - United Kingdom',
+        description: "Collaborated with a team to develop Oden unlimited, leveraging Node.js, MongoDB, and EJS. Responsible for translating design concepts into responsive web elements, managing debugging processes, and implementing features such as page rendering and automated reservation confirmation emails.",
+        technologies: ['Nodejs', 'Mongodb']
     },
 ]
 
@@ -57,7 +64,7 @@ export const projects = [
         description: 'LogDigital is a comprehensive marketing site offering a wide range of services including social media management, web development, and digital marketing. The expert team delivers tailored strategies to enhance your online presence, drive traffic, and boost engagement. ',
         technologies: ['Nodejs', 'react', 'js', 'tailwindCss'],
         liveLink: 'https://www.logdigitalltd.com',
-        githubLink: 'https://github.com/OnojaPeter/logdigital',
+        // githubLink: 'https://github.com/OnojaPeter/logdigital',
     },
     {
         title: 'Kreate',
@@ -72,7 +79,7 @@ export const projects = [
         image: 'monogram.webp',
         description: 'Monogram e-commerce website clone with the functionality of "Add to cart" made with react js',
         technologies: ['react', 'tailwindCss'],
-        liveLink: 'https://',
+        liveLink: 'https://monogram-five.vercel.app',
         githubLink: 'https://github.com/OnojaPeter/monogram-mock/',
     },
     {
@@ -83,14 +90,14 @@ export const projects = [
         liveLink: 'https://onojapeter.github.io/Finance-Flow/home.html',
         githubLink: 'https://github.com/OnojaPeter/Finance-Flow', 
     },
-    {
-        title: 'Drip Kustom',
-        image: 'drip-kustom.webp',
-        description: 'Drip Kustom is an e-commerce platform specializing in unique, custom-designed sneakers. The site offers a wide range of stylish, personalized sneakers that caters to individual tastes and trends. ',
-        technologies: ['Nodejs', 'js', 'tailwindCss'],
-        liveLink: 'https://dripkustom.onrender.com',
-        githubLink: 'https://github.com/OnojaPeter/dripkustom',
-    },
+    // {
+    //     title: 'Drip Kustom',
+    //     image: 'drip-kustom.webp',
+    //     description: 'Drip Kustom is an e-commerce platform specializing in unique, custom-designed sneakers. The site offers a wide range of stylish, personalized sneakers that caters to individual tastes and trends. ',
+    //     technologies: ['Nodejs', 'js', 'tailwindCss'],
+    //     liveLink: 'https://dripkustom.onrender.com',
+    //     githubLink: 'https://github.com/OnojaPeter/dripkustom',
+    // },
     // {
     //     title: 'Tech care',
     //     image: 'tech-care.webp',

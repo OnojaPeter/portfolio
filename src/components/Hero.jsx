@@ -82,8 +82,8 @@ const Hero = () => {
                             initial={{ x: 100, opacity: 0}}
                             animate={{ x: 0, opacity: 1}}
                             transition={{duration: 1, delay: 1}}
-                            src="/hero_img1.jpg" alt="" 
-                            className="h-[350px] md:w-[50%] object-cover rounded-2xl"
+                            src="/hero_img2.JPG" alt="" 
+                            className="h-[350px] md:w-[60%] object-cover rounded-2xl"
                         />
                     </div>
                 </div>
